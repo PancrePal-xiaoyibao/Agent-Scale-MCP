@@ -24,7 +24,7 @@ jobs:
 
       - run: |
           echo "//npm.pkg.github.com/:_authToken=\${NODE_AUTH_TOKEN}" > .npmrc
-          echo "@liueic:registry=https://npm.pkg.github.com" >> .npmrc
+          echo "@pancrepal-xiaoyibao:registry=https://npm.pkg.github.com" >> .npmrc
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
